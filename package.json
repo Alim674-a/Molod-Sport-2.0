@@ -7,7 +7,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "start": "sh ./start.sh"
+    "start": "npx --yes http-server . -p ${PORT:-3000} -a 0.0.0.0"
   }
 }
 
