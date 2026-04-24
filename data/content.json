@@ -1,0 +1,49 @@
+{
+  "appTitle": "Расписание игр",
+  "appSubtitle": "3 вида спорта",
+  "sports": [
+    { "id": "volleyball_m", "label": "Волейбол (м)", "icon": "🏐" },
+    { "id": "volleyball_w", "label": "Волейбол (д)", "icon": "🏐" },
+    { "id": "football_m", "label": "Футбол (м)", "icon": "⚽" }
+  ],
+  "teamsBySport": {
+    "volleyball_m": [
+      { "id": "vm-team-1", "name": "Команда М‑1", "logo": "./assets/logos/vm-team-1.png" },
+      { "id": "vm-team-2", "name": "Команда М‑2", "logo": "./assets/logos/vm-team-2.png" }
+    ],
+    "volleyball_w": [
+      { "id": "vw-team-1", "name": "Команда Д‑1", "logo": "./assets/logos/vw-team-1.png" },
+      { "id": "vw-team-2", "name": "Команда Д‑2", "logo": "./assets/logos/vw-team-2.png" }
+    ],
+    "football_m": [
+      { "id": "fm-team-1", "name": "Футбол‑1", "logo": "./assets/logos/fm-team-1.png" },
+      { "id": "fm-team-2", "name": "Футбол‑2", "logo": "./assets/logos/fm-team-2.png" }
+    ]
+  },
+  "scheduleBySport": {
+    "volleyball_m": [
+      {
+        "id": "vm-2026-04-30-1",
+        "dateLabel": "30 апр",
+        "timeLabel": "19:00",
+        "venue": "Спортзал №1",
+        "status": "scheduled",
+        "homeTeamId": "vm-team-1",
+        "awayTeamId": "vm-team-2"
+      }
+    ],
+    "volleyball_w": [],
+    "football_m": [
+      {
+        "id": "fm-2026-05-02-1",
+        "dateLabel": "2 мая",
+        "timeLabel": "18:30",
+        "venue": "Стадион",
+        "status": "scheduled",
+        "homeTeamId": "fm-team-1",
+        "awayTeamId": "fm-team-2"
+      }
+    ]
+  }
+}
+

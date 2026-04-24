@@ -1,0 +1,13 @@
+{
+  "name": "sport-miniapp",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static sports schedule miniapp (3 tabs).",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "npx --yes serve@14.2.4 -s . -l $PORT"
+  }
+}
+
